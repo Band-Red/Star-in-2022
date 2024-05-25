@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&family=Lateef:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=El+Messiri&family=Lateef:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+body {
+    float: right;
+    margin: 0;
+    background:  linear-gradient(
+        120deg, 
+        rgb(2, 57, 115),
+        rgb(0, 75, 173),
+        rgb(3, 131, 217)
+        );
+    
+}
+
+.menu {
+    opacity: inherit;
+    mix-blend-mode: luminosity;
+    font-weight: 900;
+    font-style: unset;
+}
+
+.list {
+    position: absolute;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    box-shadow: 0 0 15px #131313, 
+    -15px -15px 0px rgba(49, 125, 239, 0.637);
+    background-color: aliceblue;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius:8px;
+    background: linear-gradient(180deg, #0384d9, rgba(203, 211, 211, 0.537)) ;
+}
+
+.list > a , [ion-icon] {
+    position: relative;
+    box-shadow: -20px -5px -20px transparent,
+    -20px -5px -20px rgba(18, 18, 18, 0.648);
+    text-decoration: none;
+}
+
+.logo {
+    color: #c8e6fe;
+    font-size: 35px;
+    font: bolder;
+    margin-right: 2%;
+    margin-left: 16%;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.childern-first , .childern-Secound,
+.childern-theerd, .childern-last {
+    color: #d4ecff;
+    margin-left: 3%;
+    padding: 2px 18px 2px 18px;
+}
+
+.childern-first:hover , .childern-Secound:hover,
+.childern-theerd:hover, .childern-last:hover {
+    color: #02417f;
+    padding: 5px 23px 5px 23px;
+    background-color: #6dc1f4;
+    background-position: right;
+    border: 2px solid #024486;
+    border-radius: 20px;
+    transition: 0.1s ;
+    text-decoration: underline;
+}
+
+h3 {
+    position: absolute;
+}
+
+.details-img {
+    width: 30px;
+}
+
+
+.image-content {
+    width: 70%;
+    height: 88%;
+    top: 11%;
+    left: 2%;
+    position: absolute;
+    border-radius: 5%;
+    filter: drop-shadow(5px 10px 9px rgba(0, 0, 0.2));
+    background-image: url(image/085c5c1b-8ce8-40de-be54-601c42bebad0.png);
+    background-repeat: no-repeat;
+
+}
+
+h1 {
+    top: 66%;
+    left: 13.82%;
+    font-size: 650%;
+    font-family: system-ui;
+    color: rgba(247, 246, 246, 0.959);
+    position: absolute;
+    background-position: center;
+    text-shadow: 5px 10px 9px rgba(0, 0, 0.2);
+}
+
+/* ضع خلفية النص شفافة */
+.input-sumit {
+    margin-top: 10%;
+    align-items: right;
+}
+
+@keyframes move {
+    0% {
+      transform: translate3d(2400px);
+    }
+    50% {
+      transform: translateX(8px);
+    }
+    100% {
+      transform:  scale3d(3380px);
+    }
+  }
+
+h2 {
+    width: 481px;
+    height: 60px;
+    margin-top: 0;
+    margin-right: 10%;
+    color: transparent;
+    font:bolder;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 380%;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-bottom: 2.5%;
+    background: -webkit-linear-gradient(115deg, #64b3f3, rgba(255, 255, 255, 0.886));
+    -webkit-background-clip: text;
+    text-stroke: 1px #FFF; 
+    filter: drop-shadow(9px 5px 5px rgba(0, 0, 0.2));
+    animation: move 5s infinite;
+}
+
+ul {
+    width: 100vh;
+    height: 35vh;
+    padding: 3vh 5vh 15vh 2vh;
+    color: azure;
+    text-align: right;
+    margin-right: 1%;
+    line-height: 1.2;
+    font-family: 'El Messiri', sans-serif;
+    background-color: rgba(1, 142, 218, 0.959);
+    border-radius: 10px / 190px  150px  150px;
+    filter: drop-shadow(9px 5px 10px rgba(0, 0, 0.2));
+}
+
+.Btn-click {
+    margin: -12vh 85vh 0 0;
+    color: #d4ecff;
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Lateef', serif;
+    background-color: transparent;
+    border-radius: 25px;
+    padding: 5px 38px 5px 38px;
+    border: 2px solid #d4ecff;
+    position: absolute;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.Btn-click:hover {
+    color: #02417f;
+    background-color: #4d98c6;
+    background-position: right;
+    border: 2px solid #02417f;
+    transition: 1s ;
+    text-decoration: underline;
+}
